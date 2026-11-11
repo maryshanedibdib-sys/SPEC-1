@@ -9,26 +9,47 @@
     background-color: rgb(224, 160, 185);
 }
 
+h2{
+    margin: 5px;
+    padding-top: 70px;
+    font-size: 30px;
+}
+
 .pp{
+   border: rgba(0, 0, 0, 0.623) solid 5px;
    border-radius: 50%; 
-   margin: 0%;
+   margin: -60px;
+   padding: 0px;
+}
+
+.subtitle {
+    margin: 10px;
+    font-style: italic;
+    font-size: larger;
 }
 
 .details{
     text-align: center;
+    margin: 5px;
+    padding: 10px;
 }
-
 
 body {
     margin: 0;
     padding: 150px;
     display: flex;
     justify-content: center;
-    background-image: url(https://i.pinimg.com/1200x/a1/f2/2c/a1f22cccd8ec8f98f6e0856430b2c80d.jpg);
+    background-image: url(https://i.pinimg.com/236x/95/4f/5c/954f5c392ba7b31ada78bbb747576309.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }   
 
-.subtitle {
-    font-style: italic;
+.bullets{
+    margin: 5px;
+}
+
+a {
+    font-weight: 800;
+    color: rgb(102, 65, 78);
+    text-decoration: none;
 }
